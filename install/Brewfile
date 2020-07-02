@@ -4,6 +4,7 @@ tap "homebrew/services"
 tap "cloudfoundry/tap"
 tap "romkatv/powerlevel10k"
 tap "Rigellute/tap"
+tap "k14s/tap"
 
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
@@ -35,8 +36,6 @@ brew "zsh-syntax-highlighting"
 brew "romkatv/powerlevel10k/powerlevel10k"
 # Terminal Multiplexer
 brew "tmux"
-#Cloud Foundry CLI
-brew "cloudfoundry/tap/cf-cli"
 # Show System information
 brew "neofetch"
 # Youtube stuff
@@ -45,7 +44,31 @@ brew "youtube-dl"
 brew "gotop"
 # Update bash  
 brew "bash"
-# ruby version manager
-brew "rbenv"
 # bash ShellCheck 
 brew "shellcheck"
+# static site generator
+brew "hugo"
+
+## Kubernetes STUFF
+brew "kubectl"
+# Kubernetes in docker
+brew "kind"
+# Simple deployment tool
+brew "kapp"
+# Yml templating helper
+brew "ytt"
+
+## Docker STUFF
+# docker tool to look into the images / layers
+brew "dive"
+
+## Cloud Foundry STUFF
+#Cloud Foundry CLI
+brew "cloudfoundry/tap/cf-cli"
+brew "cloudfoundry/tap/bosh-cli"
+
+## RUBY STUFF
+# ruby version manager
+brew "rbenv"
+#change current ruby
+brew "chruby"

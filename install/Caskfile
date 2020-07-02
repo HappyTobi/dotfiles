@@ -23,6 +23,7 @@ cask "enpass"
 cask "logitech-options"
 cask "alacritty"
 cask "rectangle"
+cask "goland"
 
 # Java AdoptOpenJDK version
 # https://github.com/AdoptOpenJDK/homebrew-openjdk
