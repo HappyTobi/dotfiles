@@ -48,6 +48,8 @@ brew "bash"
 brew "shellcheck"
 # static site generator
 brew "hugo"
+# vis lib to draw graphs
+brew "graphviz"
 
 ## Kubernetes STUFF
 brew "kubectl"
